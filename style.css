@@ -1,0 +1,98 @@
+body{
+  background-color: #fdfdfd;
+}
+.bg-light {
+  background-color: #fdfdfd!important;
+}
+.btn-outline-primary {
+  color: #FE375B;
+  border-color: #FE375B;
+}
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
+  color: #fff;
+  background-color: #FE375B !important;
+  border-color: #FE375B !important;
+}
+.btn-primary{
+  background-color: #FE375B;
+  border-color: #FE375B;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+  background-color: #E41661 !important;
+  border-color: #E41661!important;
+}
+.titulo{
+  color: #c10326 !important;
+  font-size: 2.5rem;
+}
+.texto{
+  font-size: 1em;
+  font-weight: 300;
+  color: #6f6f6f;
+}
+.hospedagem{
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.43; 
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px !important;
+  color: rgb(34, 34, 34) !important;
+  display: inline-flex !important;
+  width: 100% !important;
+  position: relative !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: rgb(247, 247, 247) !important;
+  border-radius: 12px !important;
+  justify-content: center;
+}
+label{
+  font-size: 10px !important;
+    line-height: 12px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase !important;
+    padding-bottom: 4px !important;
+    justify-content: left !important;
+}
+input{
+  max-width: 100%;
+}
+
+
+#accommodations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.card-img-top{
+  height: 200px;
+    object-fit: cover;
+}
+.card-type{
+  color: #717171 !important;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.card-name{
+  font-weight: 400 !important;
+    color: rgb(34, 34, 34) !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    height: 40px;
+    overflow-y: hidden;
+}
+.card-price{
+  font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: right;
+}
+.card-price span{
+  font-weight: 800 !important;
+}
+.page-link{
+  color: #FE375B !important;
+}
